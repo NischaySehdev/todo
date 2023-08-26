@@ -1,0 +1,16 @@
+.button3Container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+.button2Container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+#reset{
+    width: 10vw;
+}
+#input{
+    width: 10vw;
+}

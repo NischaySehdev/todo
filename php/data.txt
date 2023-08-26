@@ -1,0 +1,4 @@
+S.no.|UserName|Passwod|birthplace|schoolname|homeaddress
+1|abc2002|Abc2002|Delhi|Gold Field public school|Rama park road
+2|xyz1972|Xyz1972|Punjab|Bal bharti|Bahtinda
+3|pqr2000|Pqr2000|Chandigarh|Bal Bhawan|Panchkula

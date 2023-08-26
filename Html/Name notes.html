@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="../Css/style.css">
+  <title>Welcome Username</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-info bg-info">
+    <a class="navbar-brand text-white text-bold" href="#">Todo list</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      </div>
+  </nav>
+  <div class="container mt-3 w-25 b-3 b-black" id="notesContainer">
+    <h1 class="text-center">Create a note</h1>
+    <form action="../Javascript/script.js" method="post">
+      <div class="form-group mt-3">
+        <label for="name">Title of the note</label>
+        <input type="text" name="name" class="form-control" id="name" aria-describedby="emailHelp"
+          placeholder="Enter your note title here." maxlength="128" minlength="1" required>
+      </div>
+      <div class="form-group mt-3">
+        <label for="note">Describe your note</label>
+        <textarea name="note" id="note" cols="43" rows="10" minlength="1" maxlength="50000"></textarea>
+        </div>
+      <div class="button2Container w-100">
+          <button type="reset" class="btn btn-warning mt-1 ">Reset</button>
+          <button type="submit" id="input" class="btn btn-success mt-1">Submit</button>
+      </div>
+      <input type="hidden" name="actionType" value="notes_page">
+    </form>
+  </div>
+  <hr>
+    <div class="row row-cols-1 row-cols-md-6 g-6 ">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, esse veniam! Suscipit impedit, odit dolor culpa eum dolore praesentium dolores in, quam nobis nisi corporis nulla rerum corrupti quos? Voluptates molestiae sit</p>
+                    <button type="reset" class="btn btn-danger " id="note1" name="notes" onclick="">Delete</button>
+                </div>
+            </div>
+        </div>
+  </div>
+  <script src="../Javascript/script.js">
+  </script>
+  <script>
+    
+  </script>
+</body>
+</html>
